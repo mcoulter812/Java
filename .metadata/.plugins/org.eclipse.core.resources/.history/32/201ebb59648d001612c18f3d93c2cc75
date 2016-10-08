@@ -45,7 +45,7 @@ public class Dog {
 	public static void main(String args[]){
 		Dog sooty = new Dog("Sooty","Black","Matt","Wouser",1,2,true);
 		sooty.bark();
-		sooty.goForAWalk(5);
+		sooty.goForAWalk();
 		sooty.howOld();
 	}
 }

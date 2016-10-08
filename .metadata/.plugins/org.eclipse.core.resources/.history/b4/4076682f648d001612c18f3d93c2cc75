@@ -12,8 +12,8 @@ public class Dog {
 		System.out.println("Woof");
 	}
 
-	void goForAWalk(int distance){
-		System.out.println("We went for a walk for "+distance+" miles");
+	void goForAWalk(){
+		System.out.println("We went for a walk");
 	}
 
 	void howOld(){
@@ -43,9 +43,9 @@ public class Dog {
 	}
 
 	public static void main(String args[]){
-		Dog sooty = new Dog("Sooty","Black","Matt","Wouser",1,2,true);
+		Dog sooty = new Dog("Sooty","Black","Matt","Wouser",2,2,true);
 		sooty.bark();
-		sooty.goForAWalk(5);
+		sooty.goForAWalk();
 		sooty.howOld();
 	}
 }
