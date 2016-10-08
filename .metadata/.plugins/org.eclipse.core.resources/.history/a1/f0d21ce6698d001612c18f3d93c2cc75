@@ -65,8 +65,10 @@ public class Dog {
 		Dog susanne = new Dog("Susanne","White","James","Poodle",1,3,false);
 		susanne.goForAWalk(2);
 		sooty.goForAWalk(3);
-		System.out.println(susanne.getDetails());
-		System.out.println(sooty.getDetails());
+		String sootydetails = sooty.getDetails();
+		System.out.println(sootydetails);
+		String susanneDetails = susanne.getDetails();
+		System.out.println(susanneDetails);
 		
 	}
 }
