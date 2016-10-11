@@ -67,6 +67,5 @@ public class Dog {
 		sooty.goForAWalk(3);
 		System.out.println(susanne.getDetails());
 		System.out.println(sooty.getDetails());
-		
 	}
 }

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class GettingUserInput {
+	public static void main (String args[]){
+		String name;
+		System.out.println("Please enter your name");
+		Scanner scanner = new Scanner(System.in);
+		name= scanner.nextLine();
+		System.out.println("Hello " + name + "\nHow old are you?");
+		int age=scanner.nextInt();
+		if(age<18){
+			System.out.println("Sorry you're not old enough to play the new South Park game.");
+		}
+		else {
+			System.out.println("Congratulations you can now play South Park");
+		}
+	}
+}
